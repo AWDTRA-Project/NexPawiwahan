@@ -34,7 +34,7 @@ const MusicPlayer = forwardRef((props, ref) => {
     <>
       {/* AUDIO */}
       <audio ref={audioRef} loop>
-        <source src="/music/Blue Wednesday.mp3" type="audio/mpeg" />
+        <source src="/music/Delaney Bailey.mp3" type="audio/mpeg" />
       </audio>
 
       {/* FLOAT BUTTON */}

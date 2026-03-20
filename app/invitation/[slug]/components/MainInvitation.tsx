@@ -11,6 +11,7 @@ import WishesSection from "./WishesSection";
 import GiftSection from "./GiftSection";
 import ThankYouSection from "./ThankYouSection";
 import MusicPlayer from "./MusicPlayer";
+import QuotesSection from "./QuotesSection";
 
 const YellowTail = Yellowtail({
   subsets: ["latin"],
@@ -138,6 +139,7 @@ export default function MainInvitation({ guestName }: Props) {
       <div className={`${!opened ? "blur-sm pointer-events-none" : ""}`}>
 
         <HeroSection />
+        <QuotesSection/>
         <CoupleSection />
         <EventSection />
         <GallerySection />
