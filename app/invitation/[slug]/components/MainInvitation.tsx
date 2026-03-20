@@ -58,7 +58,7 @@ export default function MainInvitation({ guestName }: Props) {
             transition-all duration-1000
             scale-105
             "
-            style={{ backgroundImage: "url('/image/Outdoor.jpg')" }}
+            style={{ backgroundImage: "url('/images/Outdoor.jpg')" }}
           />
 
           {/* DARK OVERLAY */}

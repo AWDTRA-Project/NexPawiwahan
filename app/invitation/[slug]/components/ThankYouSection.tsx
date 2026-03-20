@@ -24,7 +24,7 @@ export default function ThankYouSection() {
       <div
         className={`absolute inset-0 bg-cover bg-center transition-all duration-1000
         ${visible ? "scale-105" : "scale-110"}`}
-        style={{ backgroundImage: "url('/image/PrewedPantaiNyanyi.jpg')" }}
+        style={{ backgroundImage: "url('/images/PrewedPantaiNyanyi.jpg')" }}
       />
 
       {/* ================= OVERLAY ================= */}

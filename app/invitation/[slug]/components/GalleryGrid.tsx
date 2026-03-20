@@ -1,15 +1,15 @@
 "use client";
 
 const images = [
-  "/image/MempelaiPria.jpg",
-  "/image/BackTheSun.jpg",
-  "/image/MempelaiWanita.jpg",
-  "/image/Outdoor.jpg",
-  "/image/PrewedPantaiNyanyi.jpg",
-  "/image/TheNight.jpg",
-  "/image/BackTheSun.jpg",
-  "/image/Outdoor.jpg",
-  "/image/PrewedPantaiNyanyi.jpg",
+  "/images/MempelaiPria.jpg",
+  "/images/BackTheSun.jpg",
+  "/images/MempelaiWanita.jpg",
+  "/images/Outdoor.jpg",
+  "/images/PrewedPantaiNyanyi.jpg",
+  "/images/TheNight.jpg",
+  "/images/BackTheSun.jpg",
+  "/images/Outdoor.jpg",
+  "/images/PrewedPantaiNyanyi.jpg",
 ];
 
 export default function GalleryGrid() {

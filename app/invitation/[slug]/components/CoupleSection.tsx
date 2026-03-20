@@ -61,7 +61,7 @@ export default function CoupleSection() {
 
           <div className="flex justify-center">
             <img
-              src="/image/MempelaiPria.jpg"
+              src="/images/MempelaiPria.jpg"
               className="w-48 h-64 object-cover shadow-xl"
               style={{ borderRadius: "45% / 35%" }}
               alt="groom"
@@ -95,7 +95,7 @@ export default function CoupleSection() {
 
           <div className="flex justify-center">
             <img
-              src="/image/MempelaiWanita.jpg"
+              src="/images/MempelaiWanita.jpg"
               className="w-48 h-64 object-cover shadow-xl"
               style={{ borderRadius: "45% / 35%" }}
               alt="bride"

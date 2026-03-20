@@ -28,7 +28,7 @@ export default function EventSection() {
       <div
         className={`absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)]
         ${visible ? "scale-105" : "scale-110"}`}
-        style={{ backgroundImage: "url('/image/TheNight.jpg')" }}
+        style={{ backgroundImage: "url('/images/TheNight.jpg')" }}
       />
 
       {/* ================= OVERLAY ================= */}
