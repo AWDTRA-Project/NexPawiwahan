@@ -51,14 +51,9 @@ export default function MainInvitation({ guestName }: Props) {
         >
 
           {/* BACKGROUND IMAGE */}
-          <div
-            className="
-            absolute inset-0
-            bg-cover bg-center
-            transition-all duration-1000
-            scale-105
-            "
-            style={{ backgroundImage: "url('/images/Outdoor.jpg')" }}
+          <img
+            src="/images/Outdoor.jpg"
+            className="absolute inset-0 w-full h-full object-cover"
           />
 
           {/* DARK OVERLAY */}
