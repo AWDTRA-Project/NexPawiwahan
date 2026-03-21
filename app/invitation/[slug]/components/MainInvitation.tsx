@@ -64,7 +64,7 @@ export default function MainInvitation({ guestName }: Props) {
           <div
             className="
             relative text-center text-white
-            bg-black/60 backdrop-blur-sm
+            bg-black/60 
             border border-white/20
             rounded-2xl px-10 py-12
             shadow-[0_20px_60px_rgba(0,0,0,0.4)]
@@ -121,16 +121,19 @@ export default function MainInvitation({ guestName }: Props) {
               "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
             >
 
-              <img
-                src="/Logo/TulipPutih.png"
-                className="w-25 md:w-32 opacity-60"
-                alt="ornament"
-              />
+              <div className="w-full max-w-[320px] flex flex-col items-center mt-4">
 
-              <p className="text-[10px] text-gray-400 mt-3 tracking-wider">
-                Powered by <span className="font-semibold text-[12px]">NEXCODE</span>
-              </p>
+                <img
+                  src="/Logo/TulipPutih.png"
+                  className="w-1/3 max-w-[210px] opacity-60"
+                  alt="ornament"
+                />
 
+                <p className="text-[10px] text-gray-400 mt-1 tracking-wider">
+                  Powered by <span className="font-semibold text-[12px]">NEXCODE</span>
+                </p>
+
+              </div>
             </div> 
         </div>
       )}
