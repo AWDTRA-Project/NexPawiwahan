@@ -21,15 +21,16 @@ export default function ThankYouSection() {
 
       {/* ================= BACKGROUND ================= */}
 
-      <div
-        className={`absolute inset-0 bg-cover bg-center transition-all duration-1000
-        ${visible ? "scale-105" : "scale-110"}`}
-        style={{ backgroundImage: "url('/images/PrewedPantaiNyanyi.jpg')" }}
+      <img
+        src="/images/PrewedPantaiNyanyi.jpg"
+        className={`
+          absolute inset-0 w-full h-full object-cover
+          transition-transform duration-1000 will-change-transform
+          ${visible ? "scale-105" : "scale-110"}
+        `}
       />
 
-      {/* ================= OVERLAY ================= */}
-
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-black/60" />
 
       {/* ================= CONTENT ================= */}
 

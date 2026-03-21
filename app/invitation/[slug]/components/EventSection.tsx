@@ -25,10 +25,13 @@ export default function EventSection() {
 
       {/* ================= BACKGROUND ================= */}
 
-      <div
-        className={`absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)]
-        ${visible ? "scale-105" : "scale-110"}`}
-        style={{ backgroundImage: "url('/images/TheNight.jpg')" }}
+      <img
+        src="/images/TheNight.jpg"
+        className={`
+          absolute inset-0 w-full h-full object-cover
+          transition-transform duration-1000 will-change-transform
+          ${visible ? "scale-105" : "scale-110"}
+        `}
       />
 
       {/* ================= OVERLAY ================= */}
@@ -61,7 +64,7 @@ export default function EventSection() {
 
         <div
           style={{ transitionDelay: "200ms" }}
-          className={`backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-[0_20px_60px_rgba(0,0,0,0.4)]
+          className={`backdrop-blur-sm bg-white/10 border border-white/20 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-[0_20px_60px_rgba(0,0,0,0.4)]
           transition-all duration-700
           ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
         >
@@ -125,7 +128,7 @@ export default function EventSection() {
 
         <div
           style={{ transitionDelay: "350ms" }}
-          className={`text-center mt-16 transition-all duration-700
+          className={`text-center mt-16 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
 
