@@ -46,14 +46,14 @@ const MusicPlayer = forwardRef((props, ref) => {
         bg-black/10 backdrop-blur-xs
         shadow-[0_10px_30px_rgba(0,0,0,0.4)]
         flex items-center justify-center
-        transition-all duration-300
+        transition-opacity transition-transform duration-300
         hover:scale-110 active:scale-95
         "
       >
 
         <img
           src={playing ? "/Logo/SoundWavePlay.png" : "/Logo/SoundWavePause.png"}
-          className={`w-12 h-12 transition-all duration-300
+          className={`w-12 h-12 transition-opacity transition-transform duration-300
           ${playing ? "animate-pulse" : ""}`}
           alt="music"
         />

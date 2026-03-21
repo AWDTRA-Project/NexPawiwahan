@@ -41,7 +41,7 @@ export default function EventSection() {
       {/* ================= CONTENT ================= */}
 
       <div
-        className={`relative w-full max-w-5xl px-6 transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
+        className={`relative w-full max-w-5xl px-6 transition-opacity transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
         ${visible 
           ? "opacity-100 translate-y-0 blur-0" 
           : "opacity-0 translate-y-10 blur-sm"}
@@ -53,7 +53,7 @@ export default function EventSection() {
         <p
           style={{ transitionDelay: "100ms" }}
           className={`text-center text-sm md:text-base mb-12 leading-relaxed opacity-90 max-w-2xl mx-auto
-          transition-all duration-700
+          transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
           Merupakan suatu kebahagiaan dan kehormatan bagi kami,
@@ -65,7 +65,7 @@ export default function EventSection() {
         <div
           style={{ transitionDelay: "200ms" }}
           className={`backdrop-blur-sm bg-white/10 border border-white/20 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-[0_20px_60px_rgba(0,0,0,0.4)]
-          transition-all duration-700
+          transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
         >
 

@@ -20,7 +20,7 @@ export default function CoupleSection() {
 
     <section
       ref={ref}
-      className={`bg-[#f8f6f2] relative overflow-hidden py-10 px-6 transition-all duration-700 ease-out
+      className={`bg-[#f8f6f2] relative overflow-hidden py-10 px-6 transition-opacity transition-transform duration-700 ease-out
       ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
     >
 
@@ -36,7 +36,7 @@ export default function CoupleSection() {
 
       {/* TITLE */}
 
-      <div className={`text-center mb-16 max-w-2xl mx-auto transition-all duration-700 delay-100
+      <div className={`text-center mb-16 max-w-2xl mx-auto transition-opacity transition-transform duration-700 delay-100
         ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
 
         <h2 className={`${playfair.className} text-3xl text-[#8c6b3f]`}>
@@ -56,7 +56,7 @@ export default function CoupleSection() {
 
         {/* GROOM */}
 
-        <div className={`transition-all duration-700 delay-200
+        <div className={`transition-opacity transition-transform duration-700 delay-200
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
 
           <div className="flex justify-center">
@@ -79,7 +79,7 @@ export default function CoupleSection() {
           <p className="text-gray-500 text-sm mt-3 leading-relaxed">
             Putra pertama dari pasangan:
             <br />
-            I Wayan Santa & Ni Nengah Darsi
+            I Wayan Santa & Ni Nengah Dersi
           </p>
 
           <p className="text-gray-400 text-xs mt-2">
@@ -90,7 +90,7 @@ export default function CoupleSection() {
 
         {/* BRIDE */}
 
-        <div className={`transition-all duration-700 delay-300
+        <div className={`transition-opacity transition-transform duration-700 delay-300
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
 
           <div className="flex justify-center">
@@ -124,7 +124,7 @@ export default function CoupleSection() {
         {/* ORNAMENT TENGAH (DESKTOP) */}
 
         <div className={`hidden md:block absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2
-          transition-all duration-700 delay-500
+          transition-opacity transition-transform duration-700 delay-500
           ${visible ? "opacity-60 scale-100" : "opacity-0 scale-90"}`}>
 
             <img

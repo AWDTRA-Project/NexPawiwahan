@@ -28,7 +28,7 @@ export default function HeroSection() {
 
     <section
       ref={ref}
-      className={`relative h-screen w-full overflow-hidden transition-all duration-700
+      className={`relative h-screen w-full overflow-hidden transition-opacity transition-transform duration-700
       ${visible ? "opacity-100" : "opacity-0"}`}
     >
 
@@ -44,7 +44,7 @@ export default function HeroSection() {
         
       <div
         className={`absolute bottom-36 left-6 md:left-20 text-white max-w-lg z-20
-        transition-all duration-700
+        transition-opacity transition-transform duration-700
         ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
       >
       
@@ -67,7 +67,7 @@ export default function HeroSection() {
 
       <div
         className={`absolute bottom-1 left-1/2 -translate-x-1/2 z-20
-        transition-all duration-700 delay-200
+        transition-opacity transition-transform duration-700 delay-200
         ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
       >
         <Countdown targetDate="2026-04-03T09:00:00" />

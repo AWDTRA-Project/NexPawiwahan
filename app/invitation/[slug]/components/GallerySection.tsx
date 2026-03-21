@@ -21,7 +21,7 @@ export default function GallerySection() {
       {/* ================= CONTAINER ================= */}
 
       <div
-        className={`max-w-6xl mx-auto transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
+        className={`max-w-6xl mx-auto transition-opacity transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
         ${visible 
           ? "opacity-100 translate-y-0 blur-0" 
           : "opacity-0 translate-y-10 blur-sm"}
@@ -32,7 +32,7 @@ export default function GallerySection() {
 
         <div
           style={{ transitionDelay: "100ms" }}
-          className={`flex justify-center mb-1 transition-all duration-700
+          className={`flex justify-center mb-1 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
           <img
@@ -46,7 +46,7 @@ export default function GallerySection() {
 
         <div
           style={{ transitionDelay: "200ms" }}
-          className={`text-center mb-16 transition-all duration-700
+          className={`text-center mb-16 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
 
@@ -64,7 +64,7 @@ export default function GallerySection() {
 
         <div
           style={{ transitionDelay: "300ms" }}
-          className={`max-w-5xl mx-auto mb-16 transition-all duration-700
+          className={`max-w-5xl mx-auto mb-16 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
         >
           <GallerySlider />
@@ -74,7 +74,7 @@ export default function GallerySection() {
 
         <div
           style={{ transitionDelay: "400ms" }}
-          className={`max-w-5xl mx-auto transition-all duration-700
+          className={`max-w-5xl mx-auto transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           <GalleryGrid />

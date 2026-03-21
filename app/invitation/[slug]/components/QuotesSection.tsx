@@ -29,7 +29,7 @@ export default function QuotesSection() {
       className={`
         py-10 px-6 flex flex-col items-center text-center
         max-w-3xl mx-auto relative overflow-hidden
-        transition-all duration-700
+        transition-opacity transition-transform duration-700
         ${visible ? "opacity-100 translate-y-0 blur-0" : "opacity-0 translate-y-10 blur-sm"}
       `}
     >
@@ -37,7 +37,7 @@ export default function QuotesSection() {
       <img
         src="/Logo/TulipHitam.png"
         className={`
-          w-24 md:w-32 mb-5 transition-all duration-700
+          w-24 md:w-32 mb-5 transition-opacity transition-transform duration-700
           ${visible ? "opacity-60 translate-y-0" : "opacity-0 translate-y-6"}
         `}
         alt="ornament"
@@ -47,7 +47,7 @@ export default function QuotesSection() {
       <div
         style={{ transitionDelay: "150ms" }}
         className={`
-          mb-10 transition-all duration-700
+          mb-10 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}
         `}
       >
@@ -63,7 +63,7 @@ export default function QuotesSection() {
         style={{ transitionDelay: "250ms" }}
         className={`
           text-gray-600 text-sm md:text-base italic leading-relaxed
-          transition-all duration-700
+          transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
         `}
       >

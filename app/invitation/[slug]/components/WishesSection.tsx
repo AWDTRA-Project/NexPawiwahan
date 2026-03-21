@@ -95,7 +95,7 @@ export default function WishesSection() {
     <section ref={ref} className="bg-white py-24 px-6">
 
       {/* TITLE */}
-      <div className={`text-center mb-16 transition-all duration-700
+      <div className={`text-center mb-16 transition-opacity transition-transform duration-700
         ${visible ? "opacity-100" : "opacity-0 translate-y-10"}`}>
 
         <h2 className={`${greatVibes.className} text-4xl text-gray-800`}>

@@ -46,7 +46,7 @@ export default function MainInvitation({ guestName }: Props) {
           className={`
           fixed inset-0 z-50
           flex items-center justify-center
-          transition-all duration-700
+          transition-opacity transition-transform duration-700
           ${opened ? "opacity-0 scale-110" : "opacity-100 scale-100"}
           `}
         >
@@ -64,11 +64,11 @@ export default function MainInvitation({ guestName }: Props) {
           <div
             className="
             relative text-center text-white
-            bg-black/60 backdrop-blur-xs
+            bg-black/60 backdrop-blur-sm
             border border-white/20
             rounded-2xl px-10 py-12
             shadow-[0_20px_60px_rgba(0,0,0,0.4)]
-            transition-all duration-700
+            transition-opacity transition-transform duration-700
             "
           >
 
@@ -116,7 +116,8 @@ export default function MainInvitation({ guestName }: Props) {
           <div
               style={{ transitionDelay: "400ms" }}
               className={`absolute bottom-6 flex flex-col items-center
-              transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
+              transition-opacity transition-transform duration-700
+              ease-[cubic-bezier(0.22,1,0.36,1)]
               "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
             >
 
