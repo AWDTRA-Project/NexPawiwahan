@@ -40,7 +40,7 @@ export default function CoupleSection() {
 
         <img
           src="/Logo/DaunKecil.png"
-          className="w-20 md:w-20"
+          className="w-15 md:w-15"
           alt="ornament"
         />
 
