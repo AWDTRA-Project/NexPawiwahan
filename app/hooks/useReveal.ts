@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react";
 export default function useReveal() {
 
   const ref = useRef<HTMLDivElement | null>(null);
-
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -14,11 +13,15 @@ export default function useReveal() {
 
       ([entry]) => {
 
-        if (entry.intersectionRatio > 0.25) {
+        // muncul ketika 30% terlihat
+        if (entry.intersectionRatio > 0.05) {
 
           setVisible(true);
 
-        } else {
+        }
+
+        // hilang ketika hampir keluar layar
+        else if (entry.intersectionRatio < 0.05) {
 
           setVisible(false);
 
@@ -27,7 +30,8 @@ export default function useReveal() {
       },
 
       {
-        threshold: [0, 0.25, 0.5],
+        threshold: [0, 0.05, 0.3, 0.6],
+        rootMargin: "-5% 0px -5% 0px"
       }
 
     );
