@@ -26,7 +26,7 @@ export default function EventSection() {
       {/* ================= BACKGROUND ================= */}
 
       <img
-        src="/images/TheNight.jpg"
+        src="/images/Outdoor.jpg"
         className={`
           absolute inset-0 w-full h-full object-cover
           transition-transform duration-1000 will-change-transform
@@ -52,7 +52,7 @@ export default function EventSection() {
 
         <p
           style={{ transitionDelay: "100ms" }}
-          className={`text-center text-sm md:text-base mb-12 leading-relaxed opacity-90 max-w-2xl mx-auto
+          className={`text-center text-sm md:text-base mb-8 leading-relaxed opacity-90 max-w-2xl mx-auto
           transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
@@ -64,7 +64,7 @@ export default function EventSection() {
 
         <div
           style={{ transitionDelay: "200ms" }}
-          className={`backdrop-blur-sm bg-white/10 border border-white/20 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-[0_20px_60px_rgba(0,0,0,0.4)]
+          className={`bg-black/45 border border-white/20 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-[0_20px_60px_rgba(0,0,0,0.4)]
           transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
         >
@@ -128,7 +128,7 @@ export default function EventSection() {
 
         <div
           style={{ transitionDelay: "350ms" }}
-          className={`text-center mt-16 transition-opacity transition-transform duration-700
+          className={`text-center mt-10 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
 

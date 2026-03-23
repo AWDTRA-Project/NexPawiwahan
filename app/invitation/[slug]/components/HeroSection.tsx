@@ -28,8 +28,7 @@ export default function HeroSection() {
 
     <section
       ref={ref}
-      className={`relative h-screen w-full overflow-hidden transition-opacity transition-transform duration-700
-      ${visible ? "opacity-100" : "opacity-0"}`}
+      className="relative h-screen w-full overflow-hidden"
     >
 
       {/* SLIDER */}

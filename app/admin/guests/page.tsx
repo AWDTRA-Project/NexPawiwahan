@@ -172,9 +172,19 @@ Om Swastiastu,
 
 Tanpa mengurangi rasa hormat,
 kami mengundang Bapak/Ibu/Saudara/i
-untuk menghadiri Pawiwahan kami.
+untuk menghadiri Pernikahan kami.
+
+Berikut link undangan kami untuk info lengkap dari
+acara bisa kunjungi :
 
 ${link}
+
+Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i
+berkenan untuk hadir dan memberikan doa restu.
+
+Mohon maaf perihal undangan hanya di bagikan melalui pesan ini. 
+
+Terima kasih banyak atas perhatiannya.
 
 Om Shanti Shanti Shanti Om`;
 

@@ -32,12 +32,12 @@ export default function GallerySection() {
 
         <div
           style={{ transitionDelay: "100ms" }}
-          className={`flex justify-center mb-1 transition-opacity transition-transform duration-700
+          className={`flex justify-center mb-5 transition-opacity transition-transform duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
           <img
             src="/Logo/DaunHitamPisah.png"
-            className="w-52 md:w-72 opacity-70"
+            className="w-40 md:w-72 opacity-70"
             alt="ornament"
           />
         </div>
