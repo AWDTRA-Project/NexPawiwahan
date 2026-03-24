@@ -31,7 +31,7 @@ export default function GiftSection() {
 
     <section
       ref={ref}
-      className="bg-[#f8f6f2] py-24 px-6 text-center overflow-hidden"
+      className="bg-[#f8f6f2] py-5 px-6 text-center overflow-hidden"
     >
 
       {/* ================= CARD ================= */}
@@ -49,7 +49,7 @@ export default function GiftSection() {
 
         {/* TITLE */}
 
-        <h2 className={`${greatVibes.className} text-3xl`}>
+        <h2 className={`${greatVibes.className} text-3xl mb-10`}>
           Wedding Gift
         </h2>
 

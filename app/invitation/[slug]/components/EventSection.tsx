@@ -136,10 +136,6 @@ export default function EventSection() {
             Atas kehadiran dan doa restunya kami ucapkan terimakasih.
           </p>
 
-          <h3 className={`${playfair.className} mt-4 text-xl md:text-2xl`}>
-            Om Shanti Shanti Shanti Om
-          </h3>
-
         </div>
 
       </div>

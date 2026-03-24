@@ -130,7 +130,7 @@ export default function MainInvitation({ guestName }: Props) {
                 />
 
                 <p className="text-[10px] text-gray-400 mt-1 tracking-wider">
-                  Powered by <span className="font-semibold text-[12px]">NEXCODE</span>
+                  Invitation by <span className="font-semibold text-[12px]">NEXCODE</span>
                 </p>
 
               </div>
@@ -147,8 +147,8 @@ export default function MainInvitation({ guestName }: Props) {
         <CoupleSection />
         <EventSection />
         <GallerySection />
-        <WishesSection />
         <GiftSection />
+        <WishesSection />
         <ThankYouSection />
 
       </div>

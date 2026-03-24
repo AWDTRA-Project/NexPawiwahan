@@ -1,11 +1,15 @@
 "use client";
 
 import useReveal from "@/app/hooks/useReveal";
-import { Great_Vibes } from "next/font/google";
+import { Great_Vibes, Playfair_Display} from "next/font/google";
 
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: "400",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
 });
 
 export default function ThankYouSection() {
@@ -58,13 +62,13 @@ export default function ThankYouSection() {
 
         {/* PENUTUP */}
 
-        <p
+        <h3
           style={{ transitionDelay: "300ms" }}
-          className={`mt-6 text-sm opacity-80 transition-all duration-700
+          className={`${playfair.className} mt-6 text-xl opacity-80 transition-all duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           Om Shanti Shanti Shanti Om
-        </p>
+        </h3>
 
       </div>
 
