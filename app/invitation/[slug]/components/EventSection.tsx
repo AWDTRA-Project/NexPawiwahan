@@ -26,7 +26,7 @@ export default function EventSection() {
       {/* ================= BACKGROUND ================= */}
 
       <img
-        src="/images/Outdoor.jpg"
+        src="/images/Romantis2.jpg"
         className={`
           absolute inset-0 w-full h-full object-cover
           transition-transform duration-1000 will-change-transform
@@ -104,7 +104,7 @@ export default function EventSection() {
             {/* LOCATION */}
 
             <p className="text-sm md:text-base leading-relaxed mb-8 opacity-90">
-              Br. Papaan, Desa Sampalan Tengah,
+              Dusun Papaan, Desa Sampalan Tengah,
               Kec. Dawan, Kab. Klungkung
             </p>
 
@@ -132,7 +132,7 @@ export default function EventSection() {
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
 
-          <p className="text-sm opacity-90">
+          <p className="text-sm opacity-90 px-5">
             Atas kehadiran dan doa restunya kami ucapkan terimakasih.
           </p>
 

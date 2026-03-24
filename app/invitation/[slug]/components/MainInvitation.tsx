@@ -53,7 +53,7 @@ export default function MainInvitation({ guestName }: Props) {
 
           {/* BACKGROUND IMAGE */}
           <img
-            src="/images/Outdoor.jpg"
+            src="/images/OmbakWGradasi.jpg"
             className="absolute inset-0 w-full h-full object-cover"
           />
 
@@ -81,7 +81,7 @@ export default function MainInvitation({ guestName }: Props) {
           {/* NAMA */}
 
           <h1 className={`${YellowTail.className} text-5xl md:text-6xl text-white-900`}>
-            Awan & Ayu
+            Wawan & Nia
           </h1>
 
           {/* TAMU */}

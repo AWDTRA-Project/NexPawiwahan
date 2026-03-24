@@ -53,7 +53,7 @@ export default function HeroSection() {
         </p>
 
         <h1 className={`${YellowTail.className} text-5xl md:text-6xl leading-tight`}>
-          Awan & Ayu
+          Wawan & Nia
         </h1>
 
         <p className="mt-2 text-sm md:text-base tracking-wide opacity-90">

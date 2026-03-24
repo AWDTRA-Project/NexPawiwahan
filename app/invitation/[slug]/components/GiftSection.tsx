@@ -122,11 +122,11 @@ export default function GiftSection() {
               </p>
 
               <p className="text-lg font-semibold text-gray-900 tracking-widest mt-1">
-                1234567890
+                6955222664
               </p>
 
               <p className="text-sm text-gray-500 mt-1">
-                A/N I Putu Wiriawan
+                A/N I Gusti Ayu Nia Juniantari
               </p>
 
             </div>

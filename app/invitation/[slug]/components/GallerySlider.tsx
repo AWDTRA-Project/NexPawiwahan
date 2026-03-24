@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "/images/BackTheSun.jpg",
+  "/images/Romantis2.jpg",
   "/images/MempelaiPria.jpg",
   "/images/MempelaiWanita.jpg",
+  "/images/TheNight1.jpg",
 ];
 
 export default function GallerySlider() {

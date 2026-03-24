@@ -57,7 +57,7 @@ export default function QuotesSection() {
       >
 
         <img
-          src="/images/Outdoor.jpg"
+          src="/images/Romantis2Copy.jpg"
           className="w-72 md:w-96 rounded-xl shadow-xl object-cover"
           alt="couple"
         />

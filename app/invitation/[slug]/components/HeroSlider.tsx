@@ -3,9 +3,13 @@
 import { useEffect, useState } from "react";
 
 const images = [
-  "/images/PrewedPantaiNyanyi.jpg",
-  "/images/Outdoor.jpg",
-  "/images/TheNight.jpg",
+  "/images/OmbakWGradasi.jpg",
+  "/images/Ombak1.jpg",
+  "/images/Sentir1.jpg",
+  "/images/Romantis2.jpg",
+  "/images/TheNight1.jpg",
+  "/images/Zoom1.jpg",
+  "/images/Sentir2.jpg",
 ];
 
 export default function HeroSlider() {

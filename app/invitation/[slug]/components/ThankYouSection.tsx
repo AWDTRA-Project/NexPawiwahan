@@ -26,7 +26,7 @@ export default function ThankYouSection() {
       {/* ================= BACKGROUND ================= */}
 
       <img
-        src="/images/PrewedPantaiNyanyi.jpg"
+        src="/images/Berdiri.jpg"
         className={`
           absolute inset-0 w-full h-full object-cover
           transition-transform duration-1000 will-change-transform
@@ -38,12 +38,12 @@ export default function ThankYouSection() {
 
       {/* ================= CONTENT ================= */}
 
-      <div className="relative flex flex-col items-center justify-center text-center px-6 py-20 flex-1">
+      <div className="relative flex flex-col items-center justify-top text-center px-6 py-45 flex-1">
 
         {/* TITLE */}
 
         <p
-          className={`${greatVibes.className} text-3xl md:text-4xl mb-4 transition-all duration-700
+          className={`${greatVibes.className} text-4xl md:text-4xl mb-4 transition-all duration-700
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           Thank You

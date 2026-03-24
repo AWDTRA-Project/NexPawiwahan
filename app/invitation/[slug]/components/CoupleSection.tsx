@@ -107,11 +107,11 @@ export default function CoupleSection() {
           </div>
 
           <h3 className={`${YellowTail.className} text-4xl mt-6 text-[#6b4f2a]`}>
-            Awan
+            Wawan
           </h3>
 
           <p className="mt-6 font-medium text-gray-800">
-            I Putu Wiriawan
+            I Putu Wiryawan
           </p>
 
           <p className="text-gray-500 text-sm mt-3 leading-relaxed">
@@ -121,7 +121,7 @@ export default function CoupleSection() {
           </p>
 
           <p className="text-gray-400 text-xs mt-2">
-            Desa Sampalan Tengah, Klungkung
+            Dusun papaan, Desa Sampalan Tengah, Kec. Dawan, Kab. Klungkung
           </p>
 
         </div>
@@ -154,21 +154,21 @@ export default function CoupleSection() {
           </div>
 
           <h3 className={`${YellowTail.className} text-4xl mt-6 text-[#6b4f2a]`}>
-            Ayu
+            Gusti Ayu Nia
           </h3>
 
           <p className="mt-4 font-medium text-gray-800">
-            Putu Ayu Widyantini
+            I Gusti Ayu Nia Juniantari
           </p>
 
           <p className="text-gray-500 text-sm mt-3 leading-relaxed">
             Putri pertama dari pasangan:
             <br />
-            I Wayan Artana & Ibu Komang Dewi
+           Bapak I Gusti Lanang Putu Sudika & Ibu I Gusti Ayu Oka Ariani
           </p>
 
           <p className="text-gray-400 text-xs mt-1">
-            Desa Selat, Karangasem
+            Br. Dinas Triwangsa, Desa Sibetan, Kec. Bebandem, Kab. Karangasem
           </p>
 
         </div>

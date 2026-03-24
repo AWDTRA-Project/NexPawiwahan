@@ -4,14 +4,13 @@ import { useEffect, useRef, useState } from "react";
 
 const images = [
   "/images/MempelaiPria.jpg",
-  "/images/BackTheSun.jpg",
+  "/images/Sunset2.jpg",
+  "/images/Romantis2.jpg",
+  "/images/Romantis1.jpg",
   "/images/MempelaiWanita.jpg",
-  "/images/Outdoor.jpg",
-  "/images/PrewedPantaiNyanyi.jpg",
-  "/images/TheNight.jpg",
-  "/images/BackTheSun.jpg",
-  "/images/Outdoor.jpg",
-  "/images/PrewedPantaiNyanyi.jpg",
+  "/images/Sentir3Copy.jpg",
+  "/images/Zoom1.jpg",
+  "/images/TheNight1Copy.jpg",
 ];
 
 export default function GalleryGrid() {
