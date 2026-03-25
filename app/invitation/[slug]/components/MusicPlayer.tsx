@@ -34,7 +34,7 @@ const MusicPlayer = forwardRef((props, ref) => {
     <>
       {/* AUDIO */}
       <audio ref={audioRef} loop>
-        <source src="/music/Bermuara.mp3" type="audio/mpeg" />
+        <source src="/music/Bermuara.MP3" type="audio/mpeg" />
       </audio>
 
       {/* FLOAT BUTTON */}
