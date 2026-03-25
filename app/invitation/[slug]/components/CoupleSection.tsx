@@ -64,7 +64,7 @@ export default function CoupleSection() {
       >
 
         <h2 className={`${playfair.className} text-3xl text-[#8c6b3f]`}>
-          Mempelai
+          The <br /> Groom & Bride
         </h2>
 
         <p className="text-gray-500 text-md mt-4 leading-relaxed">

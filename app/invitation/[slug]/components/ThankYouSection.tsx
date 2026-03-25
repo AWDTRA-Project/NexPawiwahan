@@ -38,7 +38,7 @@ export default function ThankYouSection() {
 
       {/* ================= CONTENT ================= */}
 
-      <div className="relative flex flex-col items-center justify-top text-center px-6 py-45 flex-1">
+      <div className="relative flex flex-col items-center justify-top text-center px-6 py-40 flex-1">
 
         {/* TITLE */}
 

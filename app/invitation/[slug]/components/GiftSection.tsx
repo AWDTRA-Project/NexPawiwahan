@@ -17,138 +17,225 @@ export default function GiftSection() {
 
   const { ref, visible } = useReveal();
 
-  const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const copyRekening = () => {
-    navigator.clipboard.writeText("1234567890");
+
+    navigator.clipboard.writeText("6955222664");
+
     setCopied(true);
 
     setTimeout(() => setCopied(false), 2000);
+
   };
 
   return (
 
     <section
       ref={ref}
-      className="bg-[#f8f6f2] py-5 px-6 text-center overflow-hidden"
+      className="relative min-h-[90vh] flex items-center justify-center text-white overflow-hidden"
     >
 
-      {/* ================= CARD ================= */}
+      {/* BACKGROUND */}
+
+      <img
+        src="/images/Sentir3.jpg"
+        className={`
+          absolute inset-0 w-full h-full object-cover
+          transition-transform duration-1000 will-change-transform
+          ${visible ? "scale-105" : "scale-110"}
+        `}
+      />
+
+      {/* OVERLAY */}
+
+      <div className="absolute inset-0 bg-black/60" />
+
+
+      {/* CONTENT */}
 
       <div
-        className={`max-w-xl mx-auto rounded-3xl p-10
-        bg-gradient-to-br from-[#8c774a] to-[#6e5d3b]
-        text-white shadow-[0_20px_60px_rgba(0,0,0,0.3)]
-        transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)]
-        ${visible 
-          ? "opacity-100 translate-y-0" 
-          : "opacity-0 translate-y-10"}
+        className={`
+          relative w-full max-w-xl px-6 text-center
+
+          transition-opacity transition-transform
+          duration-700
+          ease-[cubic-bezier(0.22,1,0.36,1)]
+
+          ${visible
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-10"
+          }
         `}
       >
 
         {/* TITLE */}
 
-        <h2 className={`${greatVibes.className} text-3xl mb-10`}>
+        <p
+          className={`
+            ${greatVibes.className}
+            text-3xl mb-6
+
+            transition-opacity transition-transform
+            duration-700
+            delay-100
+
+            ${visible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-6"
+            }
+          `}
+        >
           Wedding Gift
-        </h2>
+        </p>
+
+
+        {/* LINE */}
+
+        <div
+          className={`
+            w-16 h-[1px] mx-auto
+            bg-white/40 mb-8
+
+            transition-opacity
+            duration-700
+            delay-200
+
+            ${visible ? "opacity-100" : "opacity-0"}
+          `}
+        />
+
 
         {/* TEXT */}
 
         <p
-          style={{ transitionDelay: "150ms" }}
-          className={`text-sm mt-4 leading-relaxed opacity-90 transition-all duration-700
-          ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
+          className={`
+            text-sm md:text-base leading-relaxed
+            text-white/80 mb-10
+
+            transition-opacity transition-transform
+            duration-700
+            delay-[300ms]
+
+            ${visible
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-6"
+            }
+          `}
         >
-          Kehadiran Anda adalah hadiah tersendiri. Namun jika ingin
-          memberikan tanda kasih, silakan melalui informasi di bawah ini.
+          Kehadiran Anda adalah hadiah terindah bagi kami.
+          Namun jika ingin memberikan tanda kasih,
+          dapat melalui informasi berikut.
         </p>
 
-        {/* BUTTON */}
 
-        <button
-          onClick={() => setOpen(true)}
-          className="mt-8 px-6 py-2 rounded-full border border-white text-white
-          hover:bg-white hover:text-black transition duration-300
-          shadow-lg hover:shadow-xl hover:scale-105"
+        {/* CARD */}
+
+        <div
+          className={`
+            border border-white/20
+            rounded-2xl
+            px-8 py-8
+            bg-black/40
+
+            transition-opacity transition-transform
+            duration-700
+            delay-[450ms]
+
+            ${visible
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95"
+            }
+          `}
         >
-          Send Gift
-        </button>
 
-      </div>
+          <p className="text-xs tracking-[0.25em] text-white/60">
+            BANK BCA
+          </p>
 
-      {/* ================= MODAL ================= */}
 
-      {open && (
+          {/* NO REKENING */}
 
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <p
+            className={`
+              ${playfair.className}
 
-          {/* BACKDROP */}
+              text-2xl tracking-widest
+              mt-3 mb-3
 
-          <div
-            onClick={() => setOpen(false)}
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fadeIn"
-          />
+              transition-opacity transition-transform
+              duration-700
+              delay-[550ms]
 
-          {/* MODAL CARD */}
+              ${visible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-6"
+              }
+            `}
+          >
+            6955 2226 64
+          </p>
 
-          <div
-            className="relative bg-white rounded-2xl p-6 w-[90%] max-w-md text-center
-            shadow-[0_20px_80px_rgba(0,0,0,0.4)]
-            animate-modalIn"
+
+          {/* NAME */}
+
+          <p
+            className={`
+              text-sm text-white/70 mb-6
+
+              transition-opacity
+              duration-700
+              delay-[650ms]
+
+              ${visible ? "opacity-100" : "opacity-0"}
+            `}
+          >
+            I Gusti Ayu Nia Juniantari
+          </p>
+
+
+          {/* COPY BUTTON */}
+
+          <button
+            onClick={copyRekening}
+            className="
+              px-6 py-2 rounded-full
+              border border-white/40
+              text-sm
+
+              hover:bg-white hover:text-black
+              transition duration-300
+            "
           >
 
-            {/* CLOSE */}
+            {copied ? "✔ Copied" : "Copy Rekening"}
 
-            <button
-              onClick={() => setOpen(false)}
-              className="absolute top-3 right-3 text-gray-400 hover:text-black transition"
-            >
-              ✕
-            </button>
-
-            {/* TITLE */}
-
-            <h3 className={`${playfair.className} text-gray-900 text-xl mb-6`}>
-              Transfer Bank
-            </h3>
-
-            {/* CARD REKENING */}
-
-            <div className="bg-[#f8f6f2] rounded-xl p-5 mb-6 shadow-inner">
-
-              <p className="text-sm text-gray-500">
-                Bank BCA
-              </p>
-
-              <p className="text-lg font-semibold text-gray-900 tracking-widest mt-1">
-                6955222664
-              </p>
-
-              <p className="text-sm text-gray-500 mt-1">
-                A/N I Gusti Ayu Nia Juniantari
-              </p>
-
-            </div>
-
-            {/* COPY BUTTON */}
-
-            <button
-              onClick={copyRekening}
-              className="w-full py-2 rounded-lg bg-black text-white
-              hover:bg-gray-800 transition duration-300
-              shadow-md hover:shadow-lg"
-            >
-              {copied ? "✔ Copied" : "Copy Rekening"}
-            </button>
-
-          </div>
+          </button>
 
         </div>
 
-      )}
+
+        {/* ORNAMENT LINE */}
+
+        <div
+          className={`
+            w-24 h-[1px]
+            bg-white/30
+            mx-auto mt-10
+
+            transition-opacity
+            duration-700
+            delay-[750ms]
+
+            ${visible ? "opacity-100" : "opacity-0"}
+          `}
+        />
+
+
+      </div>
 
     </section>
 
   );
+
 }

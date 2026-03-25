@@ -125,11 +125,11 @@ export default function MainInvitation({ guestName }: Props) {
 
                 <img
                   src="/Logo/TulipPutih.png"
-                  className="w-1/3 max-w-[210px] opacity-60"
+                  className="w-1/3 max-w-[210px] opacity-80"
                   alt="ornament"
                 />
 
-                <p className="text-[10px] text-gray-400 mt-1 tracking-wider">
+                <p className="text-[10px] text-gray-400 mt-4 tracking-wider">
                   Invitation by <span className="font-semibold text-[12px]">NEXCODE</span>
                 </p>
 
