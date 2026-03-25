@@ -26,7 +26,7 @@ export default function ThankYouSection() {
       {/* ================= BACKGROUND ================= */}
 
       <img
-        src="/images/Berdiri.jpg"
+        src="/images/Menatap.jpg"
         className={`
           absolute inset-0 w-full h-full object-cover
           transition-transform duration-1000 will-change-transform

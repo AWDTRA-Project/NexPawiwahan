@@ -10,7 +10,7 @@ const images = [
   "/images/TheNight1.jpg",
   "/images/Zoom1.jpg",
   "/images/Sentir2.jpg",
-  "/images/Berdiri.jpg",
+  "/images/Menatap.jpg",
 ];
 
 export default function HeroSlider() {
