@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "NexPawiwahan",
   description: "Invitation by NexCode.INA",
   icons: {
-    icon: "/images/Outdoor.jpg", 
+    icon: "/images/Sentir3Copy.jpg", 
   },
   openGraph: {
     title: "NexPawiwahan",
