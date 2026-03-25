@@ -164,7 +164,7 @@ export default function CoupleSection() {
           <p className="text-gray-500 text-sm mt-3 leading-relaxed">
             Putri pertama dari pasangan:
             <br />
-           Bapak I Gusti Lanang Putu Sudika & Ibu I Gusti Ayu Oka Ariani
+           I Gusti Lanang Putu Sudika & I Gusti Ayu Oka Ariani
           </p>
 
           <p className="text-gray-400 text-xs mt-1">
