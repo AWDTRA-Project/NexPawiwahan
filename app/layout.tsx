@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Wawan & Nia",
   description: "Invitation by NexCode.INA",
   icons: {
-    icon: "/favicon.ico", 
+    icon: "/images/IconNexcode.png", 
   },
   openGraph: {
     title: "Wawan & Nia",
