@@ -18,10 +18,10 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "NexPawiwahan",
+  title: "Wawan & Nia",
   description: "Invitation by NexCode.INA",
   icons: {
-    icon: "/images/TheNight1Copy.jpg", 
+    icon: "/images/Sunset1.jpg", 
   },
   openGraph: {
     title: "NexPawiwahan",
