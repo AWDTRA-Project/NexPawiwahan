@@ -21,16 +21,16 @@ export const metadata: Metadata = {
   title: "Wawan & Nia",
   description: "Invitation by NexCode.INA",
   icons: {
-    icon: "/images/Sunset1.jpg", 
+    icon: "/favicon.ico", 
   },
   openGraph: {
-    title: "NexPawiwahan",
-    description: "Undangan Pernikahan Digital",
+    title: "Wawan & Nia",
+    description: "3 April 2026",
     url: "https://www.nexpawiwahan.my.id", 
     siteName: "NexPawiwahan",
     images: [
       {
-        url: "/images/Outdoor.jpg",
+        url: "/images/Sunset2.jpg",
         width: 1200,
         height: 630,
         alt: "NexPawiwahan Invitation",
