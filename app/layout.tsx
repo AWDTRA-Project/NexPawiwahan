@@ -21,13 +21,7 @@ export const metadata: Metadata = {
   title: "Wawan & Nia",
   description: "Invitation by NexCode.INA",
   icons: {
-    icon: [
-      {
-        url: "/images/IconNexcode.png",
-        sizes: "32x32", // Beritahu browser ini untuk ukuran 32x32
-        type: "image/jpeg",
-      },
-    ],
+    icon: "/favicon.ico", 
   },
   openGraph: {
     title: "Wawan & Nia",
